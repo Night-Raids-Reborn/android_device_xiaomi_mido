@@ -674,6 +674,11 @@ etc/camera/s5k5e8_sunny_chromatix.xml:vendor/etc/camera/s5k5e8_sunny_chromatix.x
 # Camera firmware - from LA.UM.9.6.2.r1-04200-89xx.0
 vendor/firmware/cpp_firmware_v1_5_0.fw|ac19cd179b7b118bb3ea01a35fdfc78dc58164a1
 
+# Dirac
+vendor/etc/diracmobile.config
+vendor/lib/libDiracAPI_SHARED.so
+vendor/lib/soundfx/libdirac.so
+
 # Fingerprint
 bin/gx_fpd:vendor/bin/gx_fpd
 lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.so
