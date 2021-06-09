@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+
 $(call inherit-product, vendor/xiaomi/mido/mido-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
@@ -22,7 +26,6 @@ $(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/configs/overlays/overlay \
-    $(LOCAL_PATH)/configs/overlays/overlay-pa \
     $(LOCAL_PATH)/configs/overlays/overlay-system \
     $(LOCAL_PATH)/configs/overlays/device/overlay
 
@@ -404,10 +407,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
-
-# ParanoidDoze
-PRODUCT_PACKAGES += \
-    ParanoidDoze
 
 # device/qcom/common modules
 TARGET_COMMON_QTI_COMPONENTS := \
