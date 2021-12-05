@@ -179,8 +179,8 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.0.vendor
 
 # Device-specific settings
-PRODUCT_PACKAGES += \
-      DeviceParts
+#PRODUCT_PACKAGES += \
+      #DeviceParts
 
 # DRM
 PRODUCT_PACKAGES += \
