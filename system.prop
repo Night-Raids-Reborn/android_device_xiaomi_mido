@@ -138,5 +138,5 @@ ro.com.google.ime.kb_pad_port_b=1
 
 # Havoc 
 ro.havoc.group.url=https://t.me/havoc_mido
-ro.havoc.maintainer=Erick Eagle
-ro.havoc.maintainer.username=NBD_ERICK
+ro.havoc.maintainer=Kevin Frost
+ro.havoc.maintainer.username=kevinfrostto
