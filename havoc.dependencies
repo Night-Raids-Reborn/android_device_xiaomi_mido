@@ -1,10 +1,8 @@
 [
  { "repository" : "android_vendor_xiaomi_mido",
-   "target_path" : "vendor/xiaomi",
-   "branch" : "eleven"
+   "target_path" : "vendor/xiaomi"
  },
  { "repository" : "android_kernel_xiaomi_mido",
-   "target_path" : "kernel/xiaomi/mido",
-   "branch" : "eleven"
- },
+   "target_path" : "kernel/xiaomi/mido"
+ }
 ]
