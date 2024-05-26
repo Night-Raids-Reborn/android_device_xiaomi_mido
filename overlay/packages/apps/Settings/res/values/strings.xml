@@ -13,6 +13,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!--HavocOS Maintainer -->
-    <string name="maintainer_name">Darknius_FreePalestine</string>
-    <string name="havoc_maintainer">Darknius_FreePalestine</string>
+    <string name="maintainer_name">Maintainer</string>
+    <string name="havoc_maintainer">Maintainer</string>
 </resources>
