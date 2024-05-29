@@ -14,9 +14,13 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/p404_mido.mk
+    $(LOCAL_DIR)/p404_mido.mk \
+    $(LOCAL_DIR)/xdroid_mido.mk
 
 COMMON_LUNCH_CHOICES := \
     p404_mido-user \
     p404_mido-userdebug \
-    p404_mido-eng
+    p404_mido-eng \
+    xdroid_mido-user \
+    xdroid_mido-userdebug \
+    xdroid_mido-eng
